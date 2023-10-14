@@ -1,4 +1,5 @@
 +++
+title = "About"
 +++
 
 Paradise Ministries International is an adventist outreach program that does ...

@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Paradise Ministries International</title>
-  <link rel="stylesheet" href="/dark.css">
+  <link rel="stylesheet" href="{{ get_url(path='dark.css') }}">
   {% block meta %} {% endblock %}
 </head>
 
@@ -29,9 +29,7 @@
     </nav>
   </header>
 
-  <section class="section contrast">
-    {% block content %} {% endblock %}
-  </section>
+  {% block content %} {% endblock %}
 </body>
 
 </html>

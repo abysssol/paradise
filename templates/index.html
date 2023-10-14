@@ -1,9 +1,17 @@
 {% extends "base.html" %}
 
 {% block meta %}
-<link rel="stylesheet" href="/background.css">
+<style>
+  body {
+    background-image: url("{{ get_url(path='background.jpg') }}");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+</style>
 {% endblock meta %}
 
 {% block content %}
-{{ section.content | safe }}
+<section class="contrast">
+  {{ section.content | safe }}
+</section>
 {% endblock content %}
