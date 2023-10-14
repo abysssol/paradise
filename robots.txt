@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: https://abysssol.github.io/paradise/sitemap.xml

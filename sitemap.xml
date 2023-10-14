@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://abysssol.github.io/paradise/</loc>
+    </url>
+    <url>
+        <loc>https://abysssol.github.io/paradise/blog/</loc>
+    </url>
+    <url>
+        <loc>https://abysssol.github.io/paradise/blog/first/</loc>
+        <lastmod>2023-10-12</lastmod>
+    </url>
+    <url>
+        <loc>https://abysssol.github.io/paradise/blog/second/</loc>
+        <lastmod>2023-10-13</lastmod>
+    </url>
+    <url>
+        <loc>https://abysssol.github.io/paradise/donate/</loc>
+    </url>
+</urlset>
