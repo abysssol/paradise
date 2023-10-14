@@ -14,7 +14,7 @@ Get in touch by email or phone, or send a package.
 
 Name: John Lazor
 
-Email: <email@host.com>
+Email: <paradisemin7@yahoo.com>
 
 Phone Number: (000) 000-0000
 
