@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Paradise Ministries International</title>
+  <link rel="stylesheet" href="/dark.css">
+  {% block meta %} {% endblock %}
+</head>
+
+<body>
+  <header>
+    <h1>
+      <a href="{{ get_url(path='/') }}" class="title">
+        Paradise Ministries International
+      </a>
+    </h1>
+
+    <nav class="header">
+      <a href="{{ get_url(path='/') }}" class="header">
+        About
+      </a>
+      <a href="{{ get_url(path='@/blog/_index.md') }}" class="header">
+        Blog
+      </a>
+      <a href="{{ get_url(path='@/donate/_index.md') }}" class="header">
+        Donate
+      </a>
+    </nav>
+  </header>
+
+  <section class="section contrast">
+    {% block content %} {% endblock %}
+  </section>
+</body>
+
+</html>

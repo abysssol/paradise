@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block meta %}
+<link rel="stylesheet" href="/background.css">
+{% endblock meta %}
+
+{% block content %}
+{{ section.content | safe }}
+{% endblock content %}
