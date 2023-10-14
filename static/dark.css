@@ -2,8 +2,6 @@ body {
   background-color: black;
   color: white;
   text-align: center;
-  margin-left: 15%;
-  margin-right: 15%;
 }
 
 header {
@@ -32,9 +30,6 @@ a.title {
     8px 8px 8px black, 
     8px -8px 8px black, 
     -8px -8px 8px black; 
-
-  -webkit-text-stroke-width: 1px; 
-  -webkit-text-stroke-color: black; 
 }
 
 a.header:hover {
